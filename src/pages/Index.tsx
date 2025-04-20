@@ -1,7 +1,5 @@
 
 import { Header } from "@/components/Header";
-// Eliminamos la importación de SpecialMoments
-import { Timeline } from "@/components/Timeline";
 import { PhotoGallery } from "@/components/PhotoGallery";
 import { RelationshipProvider } from "@/context/RelationshipContext";
 
@@ -18,7 +16,7 @@ const Index = () => {
           </div>
           <PhotoGallery />
           {/* Quitamos el componente <SpecialMoments /> */}
-          <Timeline />
+          {/* Quitamos el componente <Timeline /> */}
           <footer className="text-center py-8 text-sm text-muted-foreground mt-12">
             <p>❤️ Creado con amor para nosotros ❤️</p>
           </footer>
