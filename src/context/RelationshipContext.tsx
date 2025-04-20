@@ -1,4 +1,3 @@
-
 import React, { createContext, useState, useContext, ReactNode } from "react";
 
 type Mood = "amazing" | "good" | "neutral" | "bad" | "terrible" | "";
@@ -92,7 +91,7 @@ const sampleTimelineEvents: TimelineEvent[] = [
 export const RelationshipContext = createContext<RelationshipContextType>(defaultRelationshipContext);
 
 export const RelationshipProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
-  const [startDate] = useState<Date>(new Date(new Date().getFullYear() - 1, 0, 1));
+  const [startDate] = useState<Date>(new Date(2024, 2, 7)); // Month is 0-indexed, so March is 2
   const [daysData, setDaysData] = useState<Record<string, DayData>>({});
   const [specialMoments, setSpecialMoments] = useState<SpecialMoment[]>(sampleSpecialMoments);
   const [timelineEvents, setTimelineEvents] = useState<TimelineEvent[]>(sampleTimelineEvents);
