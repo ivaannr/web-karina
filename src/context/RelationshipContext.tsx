@@ -1,3 +1,4 @@
+
 import React, { createContext, useState, useContext, ReactNode } from "react";
 
 type Mood = "amazing" | "good" | "neutral" | "bad" | "terrible" | "";
@@ -46,21 +47,21 @@ const defaultRelationshipContext: RelationshipContextType = {
   addTimelineEvent: () => {},
 };
 
-// Sample data
+// Updated sample data with 2 different images from the user's uploaded photos
 const sampleSpecialMoments: SpecialMoment[] = [
   {
     id: "1",
-    title: "Nuestro primer viaje juntos",
+    title: "Primer paseo inolvidable",
     date: "2023-02-14",
-    description: "Fuimos a la playa y vimos el atardecer más hermoso",
-    imageUrl: "https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=500&h=300",
+    description: "Paseamos por el parque y fue un día maravilloso",
+    imageUrl: "/lovable-uploads/6d2b02e1-7d0f-461c-806e-6f58fe15a403.png",
   },
   {
     id: "2",
-    title: "Aniversario de 6 meses",
+    title: "Cena romántica bajo las estrellas",
     date: "2023-07-10",
-    description: "Celebramos con una cena romántica bajo las estrellas",
-    imageUrl: "https://images.unsplash.com/photo-1439886183900-e79ec0057170?auto=format&fit=crop&w=500&h=300",
+    description: "Disfrutamos de una velada mágica llena de amor",
+    imageUrl: "/lovable-uploads/c91e3803-56c4-4f3d-a03b-c531adc91012.png",
   },
 ];
 
