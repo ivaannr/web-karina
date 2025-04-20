@@ -1,6 +1,5 @@
 
 import { Header } from "@/components/Header";
-import { PixelGrid } from "@/components/PixelGrid";
 import { SpecialMoments } from "@/components/SpecialMoments";
 import { Timeline } from "@/components/Timeline";
 import { RelationshipProvider } from "@/context/RelationshipContext";
@@ -11,7 +10,6 @@ const Index = () => {
       <div className="min-h-screen bg-background">
         <Header />
         <div className="container mx-auto px-4 py-8">
-          <PixelGrid />
           <SpecialMoments />
           <Timeline />
           
@@ -25,3 +23,4 @@ const Index = () => {
 };
 
 export default Index;
+
