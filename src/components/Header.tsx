@@ -27,7 +27,7 @@ export const Header = () => {
         
         <div className="bg-white rounded-lg shadow-lg py-6 px-8 inline-block">
           <span className="block text-3xl font-bold text-primary">{daysCount} días</span>
-          <span className="text-muted-foreground">de amor y aventuras</span>
+          <span className="text-muted-foreground">de amor</span>
         </div>
       </div>
     </div>
