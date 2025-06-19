@@ -1,6 +1,7 @@
 
 import { Header } from "@/components/Header";
 import { PhotoGallery } from "@/components/PhotoGallery";
+import { SpecialDaysBox } from "@/components/SpecialDaysBox";
 import { RelationshipProvider } from "@/context/RelationshipContext";
 
 const Index = () => {
@@ -15,8 +16,7 @@ const Index = () => {
             </span>
           </div>
           <PhotoGallery />
-          {/* Quitamos el componente <SpecialMoments /> */}
-          {/* Quitamos el componente <Timeline /> */}
+          <SpecialDaysBox />
           <footer className="text-center py-8 text-sm text-muted-foreground mt-12">
             <p>❤️ Creado con amor para nosotros ❤️</p>
           </footer>
