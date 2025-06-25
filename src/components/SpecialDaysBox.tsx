@@ -26,7 +26,8 @@ const specialDays: SpecialDay[] = [
   {
     id: "3",
     title: "Día especial 3",
-    imageUrl: "/lovable-uploads/e30ef090-444a-487c-a606-b60e88fe0031.png",
+    imageUrl: "/lovable-uploads/8cc61d37-f7fd-4475-bb7f-52b76e118b9d.png",
+    description: "SAN VALENTÍN, pasamos el día juntitos para luego cocinar juntos tambien una cena muy rica"
   },
   {
     id: "4",
