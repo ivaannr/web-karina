@@ -51,15 +51,15 @@ export const SpecialDaysBox = () => {
                 </CardContent>
               </Card>
             </DialogTrigger>
-            <DialogContent className="max-w-2xl">
+            <DialogContent className="max-w-4xl max-h-[90vh] overflow-hidden">
               <div className="text-center">
                 <img
                   src={day.imageUrl}
                   alt={day.title}
-                  className="w-full h-auto rounded-lg mb-4"
+                  className="w-full max-w-full h-auto max-h-[60vh] object-contain rounded-lg mb-4 mx-auto"
                 />
                 {day.description && (
-                  <p className="text-sm text-gray-600 italic">{day.description}</p>
+                  <p className="text-sm text-gray-600 italic max-h-[20vh] overflow-y-auto">{day.description}</p>
                 )}
               </div>
             </DialogContent>
