@@ -20,7 +20,8 @@ const specialDays: SpecialDay[] = [
   {
     id: "2",
     title: "Día especial 2",
-    imageUrl: "/lovable-uploads/be3bf591-0909-405b-8626-2ebc1da08259.png",
+    imageUrl: "/lovable-uploads/81248694-8828-4184-b38a-44da42d1b9bd.png",
+    description: "nosotros con una mascarilla haciendonos el skincare 💅💅"
   },
   {
     id: "3",
