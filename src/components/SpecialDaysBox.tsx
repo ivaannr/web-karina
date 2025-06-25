@@ -32,7 +32,8 @@ const specialDays: SpecialDay[] = [
   {
     id: "4",
     title: "Día especial 4",
-    imageUrl: "/lovable-uploads/768bee2f-dc57-4ce4-871a-71784f7ee29c.png",
+    imageUrl: "/lovable-uploads/437a814c-7066-4be8-a1e0-ef0b1cfa0d78.png",
+    description: "fuimos a cenar juntos al doce mas uno la hamburguesa super picante y sufrimos como putos pero lo pasamos muy bien"
   },
 ];
 
