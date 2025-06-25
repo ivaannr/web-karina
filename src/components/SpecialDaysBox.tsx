@@ -7,13 +7,15 @@ interface SpecialDay {
   id: string;
   title: string;
   imageUrl: string;
+  description?: string;
 }
 
 const specialDays: SpecialDay[] = [
   {
     id: "1",
     title: "Día especial 1",
-    imageUrl: "/lovable-uploads/a2a67c09-9ec3-433a-b72a-5d0e842147c2.png",
+    imageUrl: "/lovable-uploads/0c2669e4-75e4-4398-a75a-7af76c3da524.png",
+    description: "Este día dimos una vuelta para luego ir a ver a mis abuelitos y en su portal nos tomamos esta foto"
   },
   {
     id: "2",
@@ -47,11 +49,16 @@ export const SpecialDaysBox = () => {
               </Card>
             </DialogTrigger>
             <DialogContent className="max-w-2xl">
-              <img
-                src={day.imageUrl}
-                alt={day.title}
-                className="w-full h-auto rounded-lg"
-              />
+              <div className="text-center">
+                <img
+                  src={day.imageUrl}
+                  alt={day.title}
+                  className="w-full h-auto rounded-lg mb-4"
+                />
+                {day.description && (
+                  <p className="text-sm text-gray-600 italic">{day.description}</p>
+                )}
+              </div>
             </DialogContent>
           </Dialog>
         ))}
