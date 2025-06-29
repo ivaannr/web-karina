@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -16,43 +15,43 @@ const questions: Question[] = [
     id: "1",
     question: "¿Qué te regalé en nuestro primer mes juntos?",
     options: ["Bombones", "Chuches", "Un juguete"],
-    correctAnswer: 0
+    correctAnswer: 0 // a - Bombones
   },
   {
     id: "2",
     question: "¿Cómo conociste a mis papás?",
     options: ["Nos pillaron en mi casa viendo una serie", "Nos encontraron en la calle", "Te los presenté de manera completamente normal"],
-    correctAnswer: 0
+    correctAnswer: 0 // a - Nos pillaron en mi casa viendo una serie
   },
   {
     id: "3",
     question: "¿Qué serie vimos la primera vez que fui a tu casa?",
     options: ["Una de abogados", "Una de polis", "The Walking Dead"],
-    correctAnswer: 0
+    correctAnswer: 0 // a - Una de abogados
   },
   {
     id: "4",
     question: "¿Qué fue lo que me regalaste para nuestro tercer mes juntos?",
     options: ["Un peluche", "Unas chuches", "Un cuadro"],
-    correctAnswer: 0
+    correctAnswer: 2 // c - Un cuadro
   },
   {
     id: "5",
     question: "¿Cuál fue la primera peli que fuimos a ver juntitos al cine?",
     options: ["Tarot", "Alien", "La cita"],
-    correctAnswer: 0
+    correctAnswer: 0 // a - Tarot
   },
   {
     id: "6",
     question: "¿Qué peli vimos la primera vez que viniste a mi casa?",
     options: ["La huérfana", "No vimos nada", "El lobo de wallstreet"],
-    correctAnswer: 0
+    correctAnswer: 0 // a - La huérfana
   },
   {
     id: "7",
     question: "¿Cuántos peluches nos hemos regalado en total entre los 2?",
     options: ["3", "6", "5"],
-    correctAnswer: 0
+    correctAnswer: 1 // b - 6
   }
 ];
 
