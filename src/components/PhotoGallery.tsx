@@ -29,6 +29,16 @@ const photos = [
   "/lovable-uploads/0b342415-226d-4b31-8201-5445b34adeb2.png",
   "/lovable-uploads/a1632d83-ee39-43f6-bdd7-5805e5b08e05.png",
   "/lovable-uploads/15269eec-bd2d-4346-8ddb-c607bb5806b5.png",
+  "/lovable-uploads/e8d1e0b4-f890-4ed2-af52-8f52dd6f18b5.png",
+  "/lovable-uploads/1abbb97a-deb5-4ba4-8820-3819cfe60024.png",
+  "/lovable-uploads/8b6ee2ba-2836-4fa1-a1b9-c37eb2870275.png",
+  "/lovable-uploads/584b7622-2ec3-4a68-abb2-49ab24e1847e.png",
+  "/lovable-uploads/c4c8be9b-d775-4a36-819e-8a69e9b9ca5d.png",
+  "/lovable-uploads/a42535cb-79b8-44ec-ae96-dea296bfea28.png",
+  "/lovable-uploads/8a8172ba-bf0f-46c7-bb4e-6fdb15286212.png",
+  "/lovable-uploads/0e4a4d30-4af2-4e89-8f0b-13cbe54e00b8.png",
+  "/lovable-uploads/e0c55d2d-3a73-4f61-9d9a-1e66eafcb454.png",
+  "/lovable-uploads/fe2efc8c-e4a4-48de-849b-65aa289d336e.png",
 ];
 
 export const PhotoGallery = () => (
