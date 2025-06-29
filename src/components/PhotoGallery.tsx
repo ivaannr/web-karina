@@ -19,6 +19,16 @@ const photos = [
   "/lovable-uploads/c91e3803-56c4-4f3d-a03b-c531adc91012.png",
   "/lovable-uploads/6d2b02e1-7d0f-461c-806e-6f58fe15a403.png",
   "/lovable-uploads/95daac74-f275-4a58-aaef-09818ffb35ed.png",
+  "/lovable-uploads/46688a7c-86dd-4f81-8119-2d47aab5e8c7.png",
+  "/lovable-uploads/a9dd73f8-364a-4c0a-adac-459b47e9a9db.png",
+  "/lovable-uploads/c6ec1842-c5e2-42d3-9f58-61314011e781.png",
+  "/lovable-uploads/7cbbe655-456e-411c-bb49-3cd0b7a2e8e0.png",
+  "/lovable-uploads/4e918554-680e-492a-9e1e-0a6055dc031b.png",
+  "/lovable-uploads/3b697394-af43-42e7-a84a-9e7415edcf50.png",
+  "/lovable-uploads/6becea6e-1ad4-40b0-a045-47d6f90c3fe1.png",
+  "/lovable-uploads/0b342415-226d-4b31-8201-5445b34adeb2.png",
+  "/lovable-uploads/a1632d83-ee39-43f6-bdd7-5805e5b08e05.png",
+  "/lovable-uploads/15269eec-bd2d-4346-8ddb-c607bb5806b5.png",
 ];
 
 export const PhotoGallery = () => (
@@ -44,4 +54,3 @@ export const PhotoGallery = () => (
     </Carousel>
   </div>
 );
-
