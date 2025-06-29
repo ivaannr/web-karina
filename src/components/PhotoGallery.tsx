@@ -1,3 +1,4 @@
+
 import React from "react";
 import {
   Carousel,
@@ -58,12 +59,11 @@ export const PhotoGallery = () => (
       <CarouselContent>
         {photos.map((url, idx) => (
           <CarouselItem key={idx}>
-            <div className="flex justify-center items-center">
+            <div className="flex justify-center items-center p-2">
               <img
                 src={url}
                 alt={`Foto pareja ${idx + 1}`}
-                className="rounded-lg shadow-md object-cover max-h-[420px] w-full"
-                style={{ aspectRatio: "16/9" }}
+                className="rounded-lg shadow-md object-contain max-h-[400px] max-w-full"
               />
             </div>
           </CarouselItem>
