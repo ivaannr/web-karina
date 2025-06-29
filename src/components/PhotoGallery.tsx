@@ -1,4 +1,3 @@
-
 import React from "react";
 import {
   Carousel,
@@ -39,6 +38,16 @@ const photos = [
   "/lovable-uploads/0e4a4d30-4af2-4e89-8f0b-13cbe54e00b8.png",
   "/lovable-uploads/e0c55d2d-3a73-4f61-9d9a-1e66eafcb454.png",
   "/lovable-uploads/fe2efc8c-e4a4-48de-849b-65aa289d336e.png",
+  "/lovable-uploads/b9cc496c-390f-483a-9b32-dcfbd52ea70e.png",
+  "/lovable-uploads/9a3caab4-254a-44c1-9efd-2f9ce1888234.png",
+  "/lovable-uploads/53a33b7c-8517-406a-a254-bbd50adbfbb9.png",
+  "/lovable-uploads/daa6771b-f451-4fc2-98e1-69762090cafd.png",
+  "/lovable-uploads/05d00d56-5fe5-45db-b24e-914e530aa71b.png",
+  "/lovable-uploads/8067f296-75cd-4ac7-8e5a-19655532dc9b.png",
+  "/lovable-uploads/9f7843e4-8e8f-414a-8b91-64d50b4f9b3d.png",
+  "/lovable-uploads/818f2f4d-0a91-482d-b684-628dd98be406.png",
+  "/lovable-uploads/a6686506-6c02-4d3a-8fa2-f0034480cfd4.png",
+  "/lovable-uploads/fb0d5620-6eef-4fa5-a0c5-98e1cc44f9ec.png",
 ];
 
 export const PhotoGallery = () => (
