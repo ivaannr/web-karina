@@ -48,6 +48,7 @@ const photos = [
   "/lovable-uploads/818f2f4d-0a91-482d-b684-628dd98be406.png",
   "/lovable-uploads/a6686506-6c02-4d3a-8fa2-f0034480cfd4.png",
   "/lovable-uploads/fb0d5620-6eef-4fa5-a0c5-98e1cc44f9ec.png",
+  "/lovable-uploads/876d3912-13b2-47da-a3d1-5763b0febc3b.png",
 ];
 
 export const PhotoGallery = () => (
