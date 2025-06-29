@@ -14,32 +14,44 @@ interface Question {
 const questions: Question[] = [
   {
     id: "1",
-    question: "Pregunta 1 - (pendiente de definir)",
-    options: ["Opción A", "Opción B", "Opción C"],
+    question: "¿Qué te regalé en nuestro primer mes juntos?",
+    options: ["Bombones", "Chuches", "Un juguete"],
     correctAnswer: 0
   },
   {
     id: "2",
-    question: "Pregunta 2 - (pendiente de definir)",
-    options: ["Opción A", "Opción B", "Opción C"],
+    question: "¿Cómo conociste a mis papás?",
+    options: ["Nos pillaron en mi casa viendo una serie", "Nos encontraron en la calle", "Te los presenté de manera completamente normal"],
     correctAnswer: 0
   },
   {
     id: "3",
-    question: "Pregunta 3 - (pendiente de definir)",
-    options: ["Opción A", "Opción B", "Opción C"],
+    question: "¿Qué serie vimos la primera vez que fui a tu casa?",
+    options: ["Una de abogados", "Una de polis", "The Walking Dead"],
     correctAnswer: 0
   },
   {
     id: "4",
-    question: "Pregunta 4 - (pendiente de definir)",
-    options: ["Opción A", "Opción B", "Opción C"],
+    question: "¿Qué fue lo que me regalaste para nuestro tercer mes juntos?",
+    options: ["Un peluche", "Unas chuches", "Un cuadro"],
     correctAnswer: 0
   },
   {
     id: "5",
-    question: "Pregunta 5 - (pendiente de definir)",
-    options: ["Opción A", "Opción B", "Opción C"],
+    question: "¿Cuál fue la primera peli que fuimos a ver juntitos al cine?",
+    options: ["Tarot", "Alien", "La cita"],
+    correctAnswer: 0
+  },
+  {
+    id: "6",
+    question: "¿Qué peli vimos la primera vez que viniste a mi casa?",
+    options: ["La huérfana", "No vimos nada", "El lobo de wallstreet"],
+    correctAnswer: 0
+  },
+  {
+    id: "7",
+    question: "¿Cuántos peluches nos hemos regalado en total entre los 2?",
+    options: ["3", "6", "5"],
     correctAnswer: 0
   }
 ];
@@ -103,7 +115,7 @@ export const Quiz = () => {
             <p className="text-lg mb-6">
               {score === questions.length 
                 ? "¡Perfecto! Conoces muy bien nuestra relación ❤️" 
-                : score >= 3 
+                : score >= 5 
                 ? "¡Muy bien! Sabes bastante sobre nosotros 😊"
                 : "¡Puedes mejorar! Sigamos creando más recuerdos juntos 💕"}
             </p>
