@@ -17,7 +17,7 @@ const songs: Song[] = [
     id: "1",
     title: "M.A.I",
     artist: "MILO J",
-    reason: "Esta canción me recuerda a ti",
+    reason: "No buscaba amor y un día te encontré",
     emoji: "🎵",
     image: "/lovable-uploads/03fa8bbb-5149-4120-ae45-ee4d77eb1ac9.png"
   },
@@ -25,7 +25,7 @@ const songs: Song[] = [
     id: "2", 
     title: "MIL VIDAS",
     artist: "MORA",
-    reason: "Viviría mil vidas contigo",
+    reason: "Quiero mil vidas contigo",
     emoji: "💫",
     image: "/lovable-uploads/35efcab4-b598-4b32-a406-0595e5f0d273.png"
   },
@@ -33,7 +33,7 @@ const songs: Song[] = [
     id: "3",
     title: "BARRO",
     artist: "DUKI", 
-    reason: "Juntos superamos todo",
+    reason: "Tuve suerte de encontrarte, me enamoré de tus palabras y de tus actos",
     emoji: "🔥",
     image: "/lovable-uploads/bc7ef4c1-d132-4e3e-9714-6eb44693100c.png"
   },
@@ -41,7 +41,7 @@ const songs: Song[] = [
     id: "4",
     title: "ACELERÁ",
     artist: "LUCHO RK",
-    reason: "Aceleras mi corazón",
+    reason: "Yo quiero una vida tranquila junto a nuestros hijos y verte de vieja",
     emoji: "💨",
     image: "/lovable-uploads/dcfa71d5-e64c-4f3d-ba1e-4fa05f8fd450.png"
   },
@@ -49,7 +49,7 @@ const songs: Song[] = [
     id: "5",
     title: "IVY",
     artist: "FRANK OCEAN",
-    reason: "Eres mi inspiración",
+    reason: "I thought i was dreaming when you said you loved me",
     emoji: "🌿",
     image: "/lovable-uploads/b625d90b-2683-4245-9034-edeeb5a27729.png"
   },
@@ -57,7 +57,7 @@ const songs: Song[] = [
     id: "6",
     title: "NOTA",
     artist: "JAY WHEELER",
-    reason: "Eres mi nota perfecta",
+    reason: "Y debería ser un delito, yo dejarte de mirar",
     emoji: "🎼",
     image: "/lovable-uploads/a6d49180-6d15-40bb-b9f6-1861c40f19b0.png"
   }
@@ -72,7 +72,6 @@ export const SongsSection = () => {
           <h2 className="text-2xl font-bold text-primary">Canciones que me recuerdan a ti</h2>
           <Heart className="h-6 w-6 text-pink-600" />
         </div>
-        <p className="text-muted-foreground">Cada melodía cuenta nuestra historia</p>
       </div>
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -108,14 +107,6 @@ export const SongsSection = () => {
             </CardContent>
           </Card>
         ))}
-      </div>
-      
-      <div className="text-center mt-8">
-        <p className="text-sm text-muted-foreground flex items-center justify-center gap-1">
-          <Music className="h-4 w-4" />
-          Cada canción tiene su momento especial en nuestra historia
-          <Heart className="h-4 w-4 text-pink-500" />
-        </p>
       </div>
     </div>
   );
