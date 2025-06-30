@@ -41,6 +41,9 @@ const Index = () => {
             <Separator className="max-w-4xl mx-auto bg-gradient-to-r from-transparent via-love-pink to-transparent h-0.5" />
           </div>
           <Slideshow />
+          <div className="my-12">
+            <Separator className="max-w-4xl mx-auto bg-gradient-to-r from-transparent via-love-pink to-transparent h-0.5" />
+          </div>
           <footer className="text-center py-8 text-sm text-muted-foreground mt-12">
             <p>❤️ Creado con amor para nosotros ❤️</p>
           </footer>
