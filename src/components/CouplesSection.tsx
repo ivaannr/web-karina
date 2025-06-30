@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Heart, Users } from "lucide-react";
@@ -70,7 +69,6 @@ export const CouplesSection = () => {
           <h2 className="text-2xl font-bold text-primary">Parejas que me recuerdan a nosotros</h2>
           <Heart className="h-6 w-6 text-pink-600" />
         </div>
-        <p className="text-muted-foreground">Historias de amor que nos inspiran</p>
       </div>
       
       {/* Carl y Ellie - Primera fila */}

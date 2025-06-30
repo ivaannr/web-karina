@@ -40,7 +40,6 @@ export const Slideshow = () => {
           <h2 className="text-2xl font-bold text-primary">Slideshow</h2>
           <Heart className="h-6 w-6 text-pink-600" />
         </div>
-        <p className="text-muted-foreground">Momentos y palabras del corazón</p>
       </div>
       
       <Carousel className="w-full max-w-4xl mx-auto">
