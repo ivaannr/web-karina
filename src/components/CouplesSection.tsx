@@ -9,15 +9,29 @@ export const CouplesSection = () => {
       id: 1,
       src: "/lovable-uploads/e31cc7d0-14fc-44a8-9a71-b322ed654162.png",
       alt: "Carl y Ellie de Up - Leyendo juntos",
-      title: "Carl y Ellie",
+      title: "Carl y Ellie de Up",
       description: "Como ellos, compartimos momentos tranquilos juntos"
     },
     {
       id: 2,
       src: "/lovable-uploads/bc113e1d-ab68-4225-894d-3479d4c35f54.png",
       alt: "Carl y Ellie de Up - Amor verdadero",
-      title: "Un amor para toda la vida",
+      title: "Carl y Ellie de Up",
       description: "Su historia de amor nos inspira cada día"
+    },
+    {
+      id: 3,
+      src: "/lovable-uploads/27364f36-ef08-42d3-958d-b964bf42b735.png",
+      alt: "Homer y Marge de Los Simpson",
+      title: "Homer y Marge de Los Simpson",
+      description: "A pesar de todo, su amor perdura a través de los años"
+    },
+    {
+      id: 4,
+      src: "/lovable-uploads/c323e947-73fc-4b77-b882-cd915943befe.png",
+      alt: "Cosmo y Wanda de Los Padrinos Mágicos",
+      title: "Cosmo y Wanda",
+      description: "Juntos crean magia en cada momento"
     }
   ];
 
