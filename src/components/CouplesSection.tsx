@@ -24,20 +24,41 @@ export const CouplesSection = () => {
   const simpsonsCouple = [
     {
       id: 3,
-      src: "/lovable-uploads/27364f36-ef08-42d3-958d-b964bf42b735.png",
-      alt: "Homer y Marge de Los Simpson",
+      src: "/lovable-uploads/074e212b-7aff-4367-bf4d-b1f8bec1641e.png",
+      alt: "Homer y Marge de Los Simpson - Abrazándose",
       title: "Homer y Marge de Los Simpson",
       description: "A pesar de todo, su amor perdura a través de los años"
+    },
+    {
+      id: 4,
+      src: "/lovable-uploads/0430d36a-5987-464e-89d8-30e980cfcf47.png",
+      alt: "Homer y Marge de Los Simpson - Felices juntos",
+      title: "Homer y Marge de Los Simpson",
+      description: "Juntos superan cualquier obstáculo"
+    },
+    {
+      id: 5,
+      src: "/lovable-uploads/5275c4e7-876d-433e-a25f-df8e6fc7c769.png",
+      alt: "Homer y Marge de Los Simpson - En bicicleta",
+      title: "Homer y Marge de Los Simpson",
+      description: "Disfrutando de la vida juntos"
     }
   ];
 
   const fairyCouple = [
     {
-      id: 4,
+      id: 6,
       src: "/lovable-uploads/c323e947-73fc-4b77-b882-cd915943befe.png",
       alt: "Cosmo y Wanda de Los Padrinos Mágicos",
       title: "Cosmo y Wanda",
       description: "Juntos crean magia en cada momento"
+    },
+    {
+      id: 7,
+      src: "/lovable-uploads/c323e947-73fc-4b77-b882-cd915943befe.png",
+      alt: "Cosmo y Wanda de Los Padrinos Mágicos",
+      title: "Cosmo y Wanda",
+      description: "Su amor es verdaderamente mágico"
     }
   ];
 
@@ -74,9 +95,9 @@ export const CouplesSection = () => {
       </div>
 
       {/* Homer y Marge - Segunda fila */}
-      <div className="grid grid-cols-1 gap-6 mb-8">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
         {simpsonsCouple.map((couple) => (
-          <Card key={couple.id} className="hover:shadow-lg transition-shadow duration-300 border-pink-100 max-w-md mx-auto">
+          <Card key={couple.id} className="hover:shadow-lg transition-shadow duration-300 border-pink-100">
             <CardContent className="p-0">
               <div className="aspect-video relative overflow-hidden rounded-t-lg">
                 <img 
@@ -95,9 +116,9 @@ export const CouplesSection = () => {
       </div>
 
       {/* Cosmo y Wanda - Tercera fila */}
-      <div className="grid grid-cols-1 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {fairyCouple.map((couple) => (
-          <Card key={couple.id} className="hover:shadow-lg transition-shadow duration-300 border-pink-100 max-w-md mx-auto">
+          <Card key={couple.id} className="hover:shadow-lg transition-shadow duration-300 border-pink-100">
             <CardContent className="p-0">
               <div className="aspect-video relative overflow-hidden rounded-t-lg">
                 <img 
