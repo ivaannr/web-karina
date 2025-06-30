@@ -7,21 +7,21 @@ export const BucketList = () => {
   const bucketListItems = [
     {
       id: "1",
-      title: "Viajar a París",
-      description: "Pasear por la Torre Eiffel y tomar café en Montmartre",
-      icon: "🗼"
+      title: "Viajar juntos a cualquier lugar",
+      description: "Siempre hemos querido viajar juntos",
+      icon: "✈️"
     },
     {
       id: "2", 
-      title: "Casa en la playa",
-      description: "Despertar cada día con vista al mar",
-      icon: "🏖️"
+      title: "Crear una familia juntos",
+      description: "Tener nuestros hijitos y vivir juntos en nuestra propia casa",
+      icon: "👨‍👩‍👧‍👦"
     },
     {
       id: "3",
-      title: "Aventura en Japón",
-      description: "Conocer la cultura japonesa y ver los cerezos en flor",
-      icon: "🌸"
+      title: "Ver el amanecer juntos",
+      description: "Nosotros solos y tranquilidad absoluta",
+      icon: "🌅"
     }
   ];
 
