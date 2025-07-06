@@ -9,7 +9,7 @@ export const LoveReasons = () => {
   const reasons = [
     {
       id: 1,
-      reason: "Tu sonrisa ilumina mis días más oscuros"
+      reason: "Tus mimos, besos y abrazos me calman y me hacen sentir bien"
     },
     {
       id: 2,
@@ -17,27 +17,27 @@ export const LoveReasons = () => {
     },
     {
       id: 3,
-      reason: "Tu apoyo incondicional en todo lo que hago"
+      reason: "Me apoyas en todo lo que hago y me motiva mucho"
     },
     {
       id: 4,
-      reason: "La forma en que me miras con tanto amor"
+      reason: "Como me miras y me tratas con tanto cariño y amor"
     },
     {
       id: 5,
-      reason: "Tu paciencia infinita conmigo"
+      reason: "Lo bien que lo pasamos juntos sin necesidad de hacer nada especial, solo nosotros dos juntos"
     },
     {
       id: 6,
-      reason: "Haces que cada día sea una aventura"
+      reason: "Como me entiendes y me ayudas cuando te necesito"
     },
     {
       id: 7,
-      reason: "Tu bondad y generosidad con todos"
+      reason: "Contigo puedo ser yo mismo sin sentirme juzgado y hacer tonterías junto a ti"
     },
     {
       id: 8,
-      reason: "La forma en que me entiendes sin palabras"
+      reason: "El amor que me tienes, como me quieres me sana y me hace sentir bien"
     },
     {
       id: 9,
