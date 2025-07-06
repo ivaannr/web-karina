@@ -1,13 +1,12 @@
-
 import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
-import { Heart, Star, Home, Baby, Plane, Ring } from "lucide-react";
+import { Heart, Star, Home, Baby, Plane } from "lucide-react";
 
 export const DreamsSection = () => {
   const dreams = [
     {
       id: 1,
-      icon: Ring,
+      icon: Heart,
       title: "Casarnos",
       description: "Prometernos amor eterno ante todos"
     },
