@@ -86,12 +86,6 @@ export const SpainMapSection = () => {
               </div>
             </div>
           </div>
-          
-          <div className="mt-8 bg-pink-50 rounded-lg p-6 text-center">
-            <p className="text-pink-700 font-medium">
-              ¡Cada lugar será una nueva aventura juntos! 💕
-            </p>
-          </div>
         </CardContent>
       </Card>
     </div>

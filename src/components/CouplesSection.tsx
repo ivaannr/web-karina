@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Heart, Users } from "lucide-react";
@@ -47,7 +48,7 @@ export const CouplesSection = () => {
   const fairyCouple = [
     {
       id: 6,
-      src: "/lovable-uploads/c323e947-73fc-4b77-b882-cd915943befe.png",
+      src: "/lovable-uploads/3b309e07-fae9-4636-b66f-4cbad2e4f404.png",
       alt: "Cosmo y Wanda de Los Padrinos Mágicos",
       title: "Cosmo y Wanda",
       description: "Juntos crean magia en cada momento"
