@@ -22,6 +22,24 @@ export const BucketList = () => {
       title: "Ver el amanecer juntos",
       description: "Nosotros solos y tranquilidad absoluta",
       icon: "🌅"
+    },
+    {
+      id: "4",
+      title: "Casarnos",
+      description: "Prometernos amor eterno ante todos",
+      icon: "💒"
+    },
+    {
+      id: "5",
+      title: "Nuestro hogar",
+      description: "Crear un espacio lleno de amor y risas",
+      icon: "🏠"
+    },
+    {
+      id: "6",
+      title: "Envejecer juntos",
+      description: "Ser felices hasta el último día",
+      icon: "👴👵"
     }
   ];
 
@@ -36,7 +54,7 @@ export const BucketList = () => {
         <p className="text-muted-foreground">Planes para nuestro futuro juntos</p>
       </div>
       
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {bucketListItems.map((item) => (
           <Card key={item.id} className="hover:shadow-lg transition-shadow duration-300 border-pink-100 text-center">
             <CardHeader>

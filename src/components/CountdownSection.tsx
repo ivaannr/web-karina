@@ -86,7 +86,7 @@ const CountdownCard = ({ targetDate, years, title }: CountdownCardProps) => {
 export const CountdownSection = () => {
   const countdowns = [
     {
-      targetDate: new Date(2025, 2, 7), // 7 de marzo de 2025
+      targetDate: new Date(2026, 2, 7), // 7 de marzo de 2026
       years: 2,
       title: "2 Años Juntos"
     },

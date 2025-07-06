@@ -9,7 +9,7 @@ import { Slideshow } from "@/components/Slideshow";
 import { CouplesSection } from "@/components/CouplesSection";
 import { LoveReasons } from "@/components/LoveReasons";
 import { CountdownSection } from "@/components/CountdownSection";
-import { DreamsSection } from "@/components/DreamsSection";
+import { SpainMapSection } from "@/components/SpainMapSection";
 import { FinalMessage } from "@/components/FinalMessage";
 import { RelationshipProvider } from "@/context/RelationshipContext";
 import { Separator } from "@/components/ui/separator";
@@ -61,7 +61,7 @@ const Index = () => {
           <div className="my-12">
             <Separator className="max-w-4xl mx-auto bg-gradient-to-r from-transparent via-love-pink to-transparent h-0.5" />
           </div>
-          <DreamsSection />
+          <SpainMapSection />
           <div className="my-12">
             <Separator className="max-w-4xl mx-auto bg-gradient-to-r from-transparent via-love-pink to-transparent h-0.5" />
           </div>
