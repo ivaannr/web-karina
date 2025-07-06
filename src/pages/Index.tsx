@@ -8,6 +8,8 @@ import { BucketList } from "@/components/BucketList";
 import { Slideshow } from "@/components/Slideshow";
 import { CouplesSection } from "@/components/CouplesSection";
 import { LoveReasons } from "@/components/LoveReasons";
+import { DreamsSection } from "@/components/DreamsSection";
+import { FinalMessage } from "@/components/FinalMessage";
 import { RelationshipProvider } from "@/context/RelationshipContext";
 import { Separator } from "@/components/ui/separator";
 
@@ -51,6 +53,14 @@ const Index = () => {
             <Separator className="max-w-4xl mx-auto bg-gradient-to-r from-transparent via-love-pink to-transparent h-0.5" />
           </div>
           <LoveReasons />
+          <div className="my-12">
+            <Separator className="max-w-4xl mx-auto bg-gradient-to-r from-transparent via-love-pink to-transparent h-0.5" />
+          </div>
+          <DreamsSection />
+          <div className="my-12">
+            <Separator className="max-w-4xl mx-auto bg-gradient-to-r from-transparent via-love-pink to-transparent h-0.5" />
+          </div>
+          <FinalMessage />
           <div className="my-12">
             <Separator className="max-w-4xl mx-auto bg-gradient-to-r from-transparent via-love-pink to-transparent h-0.5" />
           </div>
