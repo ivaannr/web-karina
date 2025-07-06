@@ -99,6 +99,21 @@ export const CountdownSection = () => {
       targetDate: new Date(2034, 2, 7), // 7 de marzo de 2034
       years: 10,
       title: "10 Años Juntos"
+    },
+    {
+      targetDate: new Date(2039, 2, 7), // 7 de marzo de 2039
+      years: 15,
+      title: "15 Años Juntos"
+    },
+    {
+      targetDate: new Date(2044, 2, 7), // 7 de marzo de 2044
+      years: 20,
+      title: "20 Años Juntos"
+    },
+    {
+      targetDate: new Date(2049, 2, 7), // 7 de marzo de 2049
+      years: 25,
+      title: "25 Años Juntos"
     }
   ];
 
