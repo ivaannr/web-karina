@@ -7,6 +7,8 @@ import { SnakeGame } from './SnakeGame';
 import { TicTacToe } from './games/TicTacToe';
 import { Breakout } from './games/Breakout';
 import { MemoryGame } from './games/MemoryGame';
+import { Pong } from './games/Pong';
+import { FlappyBird } from './games/FlappyBird';
 
 const games = [
   {
@@ -28,6 +30,16 @@ const games = [
     id: 'memory',
     name: 'Memoria',
     component: MemoryGame,
+  },
+  {
+    id: 'pong',
+    name: 'Pong del Amor',
+    component: Pong,
+  },
+  {
+    id: 'flappybird',
+    name: 'Flappy Bird del Amor',
+    component: FlappyBird,
   },
 ];
 
