@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Heart, ChevronLeft, ChevronRight } from 'lucide-react';
 import { SnakeGame } from './SnakeGame';
 import { TicTacToe } from './games/TicTacToe';
-import { Tetris } from './games/Tetris';
+import { Breakout } from './games/Breakout';
 import { MemoryGame } from './games/MemoryGame';
 
 const games = [
@@ -20,9 +20,9 @@ const games = [
     component: TicTacToe,
   },
   {
-    id: 'tetris',
-    name: 'Tetris',
-    component: Tetris,
+    id: 'breakout',
+    name: 'Breakout del Amor',
+    component: Breakout,
   },
   {
     id: 'memory',
